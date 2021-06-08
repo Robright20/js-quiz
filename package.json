@@ -1,7 +1,12 @@
 {
+  "scripts": {
+    "start": "npx nodemon bot.js"
+  },
   "dependencies": {
+    "@replit/database": "^2.0.1",
     "axios": "^0.21.1",
     "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
   }
 }
